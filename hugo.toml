@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-ca'
+title = 'Islamophobia Legal Assistance Hotline'
+theme = 'ananke'
+
+instagram = 'islamophobia_hotline'
