@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://islamophobia-hotline.netlify.app/'
 languageCode = 'en-ca'
 title = 'Islamophobia Legal Assistance Hotline'
 
