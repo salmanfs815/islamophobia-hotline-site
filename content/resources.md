@@ -1,6 +1,9 @@
 ---
 title: "Resources"
-date: 2023-07-02T01:32:54-07:00
+omit_header_text: true
+menu:
+  main:
+    weight: 4
 ---
 
 Other groups working to stop discrimination against Muslims and people perceived to be Muslims
