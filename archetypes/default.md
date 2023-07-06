@@ -1,6 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
+omit_header_text: true
+menu:
+  main:
+    weight: 1
 ---
 
