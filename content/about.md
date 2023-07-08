@@ -1,9 +1,8 @@
 ---
 title: "About"
-omit_header_text: true
 menu:
   main:
-    weight: 3
+    weight: 30
 ---
 
 We are a group of lawyers and legal organizations in Vancouver who have come together to provide our support to Muslims or those perceived to be Muslims in BC who have been or could be the subject of discrimination and attacks. We want those who have suffered from these various forms of discrimination because of their faith and/or racial background to know that there are lawyers in BC who are committed to assisting with the difficult task of holding those who commit such acts to account by our legal institutions. 

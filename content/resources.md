@@ -1,9 +1,8 @@
 ---
 title: "Resources"
-omit_header_text: true
 menu:
   main:
-    weight: 4
+    weight: 40
 ---
 
 Other groups working to stop discrimination against Muslims and people perceived to be Muslims
