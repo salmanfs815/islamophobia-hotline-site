@@ -12,6 +12,5 @@ The Hotline also opposes Islamophobia by providing public legal education, resea
 
 
 ### Participating organizations
-Add logos for each of the following orgs (we will add more orgs as they sign on)
 
 {{< participating-orgs-logos >}}
