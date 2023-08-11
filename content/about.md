@@ -14,8 +14,4 @@ The Hotline also opposes Islamophobia by providing public legal education, resea
 ### Participating organizations
 Add logos for each of the following orgs (we will add more orgs as they sign on)
 
-[![Access Pro Bono](/images/participating-orgs/access-pro-bono.png "Access Pro Bono")](https://www.accessprobono.ca/)
-[![BC Civil Liberties Association](/images/participating-orgs/bc-civil-liberties-association.png "BC Civil Liberties Association")](https://bccla.org/)
-[![Canadian Bar Association](/images/participating-orgs/canadian-bar-association.png "Canadian Bar Association")](https://www.cba.org/Home)
-[![Community Legal Assistance Society](/images/participating-orgs/community-legal-assistance-society.png "Community Legal Assistance Society")](https://clasbc.net/)
-[![Federation of Asian Canadian Lawyers](/images/participating-orgs/federation-of-asian-canadian-lawyers.png "Federation of Asian Canadian Lawyers")](https://faclbc.ca/)
+{{< participating-orgs-logos >}}

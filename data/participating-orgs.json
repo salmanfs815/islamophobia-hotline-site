@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Access Pro Bono",
+    "logo": "/images/participating-orgs/access-pro-bono.png",
+    "link": "https://www.accessprobono.ca/"
+  },
+  {
+    "name": "BC Civil Liberties Association",
+    "logo": "/images/participating-orgs/bc-civil-liberties-association.png",
+    "link": "https://bccla.org/"
+  },
+  {
+    "name": "Canadian Bar Association",
+    "logo": "/images/participating-orgs/canadian-bar-association.png",
+    "link": "https://www.cba.org/Home"
+  },
+  {
+    "name": "Community Legal Assistance Society",
+    "logo": "/images/participating-orgs/community-legal-assistance-society.png",
+    "link": "https://clasbc.net/"
+  },
+  {
+    "name": "Federation of Asian Canadian Lawyers",
+    "logo": "/images/participating-orgs/federation-of-asian-canadian-lawyers.png",
+    "link": "https://faclbc.ca/"
+  }
+]
