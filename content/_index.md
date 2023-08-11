@@ -2,19 +2,29 @@
 title: "Home"
 menu:
   main:
-    weight: 1
+    weight: 10
 cascade:
-  featured_image: '/images/hotline-number-hero.png'
+  featured_image: '/images/banner-image-homepage.png'
 ---
 
-### Free confidential legal advice if you feel that you have been discriminated, harassed, or faced violence because you are Muslim or were perceived to be Muslim
+{{% focus %}}
+## Free confidential legal advice if you feel that you have been discriminated, harassed, or faced violence because you are Muslim or were perceived to be Muslim
+{{% /focus %}}
 
-## 604-343-3828
+{{< cta-call displayNumber="604-343-3828" callNumber="+16043433828" >}}
 
 ---
 
 ### WHAT IS ISLAMOPHOBIA?
 
-2-3 sentence concise Definition "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Islamophobia is defined as a fear of and hostility toward Islam and Muslims that proceed from historical Orientalist stereotypes. Islamophobia impacts Muslims and individuals who are perceived as Muslims such as Sikhs, Hindus, and Buddhists. 
+
+As a form of religious oppression, Islamophobia also intersects with other systems of oppression such as sexism and racism. Muslims who are doubly marginalized, such as Muslim women and Black Muslims, are at greater risk of experiencing Islamophobia. Islamophobia is therefore gendered and racialized*. 
+
+Islamophobia manifests at both the individual and institutional level. It can be experienced in the form of hate speech, hate crimes, physical attacks, social, political and employment discrimination, and can be used to rationalize policies such as mass surveillance, incarceration, and disenfranchisement, resulting in the marginalization of Muslims. 
+
+If you have experienced any form of Islamophobia and require legal advice, please [contact us](/contact-us).
 
 ---
+
+{{< instagram-carousel >}}

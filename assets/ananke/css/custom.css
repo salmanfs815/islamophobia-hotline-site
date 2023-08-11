@@ -1,0 +1,51 @@
+:root {
+    --apb-blue: #0aa7c2
+}
+
+.apb-blue { color: var(--apb-blue); }
+
+.bg-apb-blue { background-color: var(--apb-blue); }
+
+.bg-beige-gray { background-color: #e6e0dc; }
+
+a.call-cta {
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 0.5em;
+}
+
+.call-cta * {
+    display: inline;
+    vertical-align: middle;
+}
+
+.call-cta img {
+    width: 40px;
+}
+
+h1 { color: var(--apb-blue); }
+h2 { color: var(--apb-blue); }
+h3 { color: var(--apb-blue); }
+h4 { color: var(--apb-blue); }
+h5 { color: var(--apb-blue); }
+h6 { color: var(--apb-blue); }
+
+.two-col-container {
+    display: inline;
+}
+
+.ig-link {
+    display: inline;
+    height:fit-content;
+    width: fit-content;
+}
+
+.ig-link img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.ig-link p {
+    display: inline;
+    vertical-align: middle;
+}

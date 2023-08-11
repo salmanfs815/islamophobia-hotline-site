@@ -9,15 +9,37 @@ DefaultContentLanguage = "en"
 SectionPagesMenu = "news"
 
 [params]
-  author = "Access Probono"
-  favicon = ""
-  site_logo = ""
-  description = "The last theme you'll ever need. Maybe."
-  background_color_class = "bg-light-red"
-  text_color = "black"
-  body_classes = "avenir bg-light-silver"
-  recent_posts_number = 3
+favicon = ""
+site_logo = ""
+description = "Free confidential legal advice if you feel that you have been discriminated, harassed, or faced violence because you are Muslim or were perceived to be Muslim."
+background_color_class = "bg-apb-blue"
+text_color = "near-black f3"
+body_classes = "avenir bg-beige-gray"
+recent_posts_number = 3
+custom_css = ["custom.css"]
 
 [[params.ananke_socials]]
 name = "instagram"
 url = "https://instagram.com/islamophobia_hotline"
+
+[[params.ananke_socials]]
+name = "phone"
+title = "Phone"
+label = "Phone"
+url = "tel:+16043433828"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^((dart-)?sass(-embedded)?|go|npx|postcss)$']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|HOME|TMP|TEMP|TERM)$']
+  [security.funcs]
+    getenv = ['^(HUGO_|REPOSITORY_URL|^BRANCH$)']
+  [security.goTemplates]
+    allowActionJSTmpl = false
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']

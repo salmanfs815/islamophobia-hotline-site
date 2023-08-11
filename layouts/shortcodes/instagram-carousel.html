@@ -1,0 +1,32 @@
+{{ $igUserId := os.Getenv "HUGO_IG_USERID" }}
+{{ $igUsername := os.Getenv "HUGO_IG_USERNAME" }}
+{{ $igToken := os.Getenv "HUGO_IG_API_TOKEN" }}
+{{ $postsData := getJSON "https://graph.instagram.com/v11.0/" $igUserId "/media?access_token=" $igToken
+"&fields=id,media_type,permalink,media_url,caption" }}
+
+<div class="measure-wide">
+    <a class="f5 link dim dark-gray ig-link" href="https://www.instagram.com/{{ $igUsername }}/" target="_blank">
+        <img src="/images/instagram.png"><p class="v-mid ph2">instagram.com/{{ $igUsername }}</p>
+    </a>
+    <div class="ig-carousel">
+        {{ range $postsData.data }}
+        <div class="ig-post">
+            <figure>
+                <a href="{{.permalink}}" target="_blank">
+                    <img src="{{.media_url}}">
+                </a>
+                <figcaption class="f5">{{ .caption | truncate 200 }}</figcaption>
+            </figure>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<script>
+    $('.ig-carousel').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    });
+</script>
