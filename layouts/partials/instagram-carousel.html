@@ -4,18 +4,18 @@
 {{ $postsData := getJSON "https://graph.instagram.com/v11.0/" $igUserId "/media?access_token=" $igToken
 "&fields=id,media_type,permalink,media_url,caption" }}
 
-<div class="measure-wide">
-    <a class="f5 link dim dark-gray ig-link" href="https://www.instagram.com/{{ $igUsername }}/" target="_blank">
-        <img src="/images/instagram.png"><p class="v-mid ph2">instagram.com/{{ $igUsername }}</p>
+<div class="measure-wide center ph5">
+    <a class="ig-link f5 link dim dark-gray w-100 center di-ns" href="https://www.instagram.com/{{ $igUsername }}/" target="_blank">
+        <img class="w2 v-mid" src="/images/instagram.png"><p class="v-mid ph2 di-ns v-mid">instagram.com/{{ $igUsername }}</p>
     </a>
     <div class="ig-carousel">
         {{ range $postsData.data }}
-        <div class="ig-post">
+        <div>
             <figure>
                 <a href="{{.permalink}}" target="_blank">
                     <img src="{{.media_url}}">
                 </a>
-                <figcaption class="f5">{{ .caption | truncate 200 }}</figcaption>
+                <figcaption class="f5">{{ .caption | truncate 100 }}</figcaption>
             </figure>
         </div>
         {{ end }}
