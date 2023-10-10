@@ -1,6 +1,6 @@
 {{ $orgs := index .Site.Data "participating-orgs" }}
-<div class="flex flex-wrap">
+<div>
     {{ range  $orgs }}
-        <a class="w-25-ns mr2" href="{{ .link }}"><img src="{{ .logo }}" alt="{{ .name }}"></a>
+        <a href="{{ .link }}"><img src="{{ .logo }}" alt="{{ .name }}" class="w5"></a><br>
     {{ end }}
 </div>

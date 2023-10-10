@@ -3,17 +3,47 @@
 
 <form class="black-80 sans-serif" accept-charset="UTF-8" action="{{ .Get "action" }}" method="POST" role="form">
 
-    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="name">{{ i18n "yourName" }}</label>
-    <input type="text" id="name" name="name" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="name"/>
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="firstName">First Name</label>
+    <input type="text" id="firstName" name="firstName" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="firstName"/>
 
-    <label class="{{ $.Scratch.Get "labelClasses" }}" for="email">{{ i18n "emailAddress" }}</label>
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="lastName">Last Name</label>
+    <input type="text" id="lastName" name="lastName" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="lastName"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="city">City</label>
+    <input type="text" id="city" name="city" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="city"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="province">Province</label>
+    <input type="text" id="province" name="province" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="province"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="telephone">Telephone</label>
+    <input type="text" id="telephone" name="telephone" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="telephone"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}" for="email">Email Address</label>
     <input type="email" id="email" name="email" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="email"/>
-    <div class="requirements f6 gray glow i ph3 overflow-hidden">
-      {{ i18n "emailRequiredNote" }}
-    </div>
 
-    <label class="{{ $.Scratch.Get "labelClasses" }}" for="message">{{ i18n "message" }}</label>
-    <textarea id="message" name="message" class="{{ $.Scratch.Get "inputClasses" }} h4" aria-labelledby="message"></textarea>
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="language">Language</label>
+    <input type="text" id="language" name="language" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="language"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="interpreter">Do you require an interpreter? If so, for which language?</label>
+    <input type="text" id="interpreter" name="interpreter" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="interpreter"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="gender">Gender</label>
+    <input type="text" id="gender" name="gender" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="gender"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="race">Race</label>
+    <input type="text" id="race" name="race" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="race"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="occupation">What is your current occupation?</label>
+    <input type="text" id="occupation" name="occupation" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="occupation"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="income">Current Income</label>
+    <input type="text" id="income" name="income" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="income"/>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}" for="issue">Brief summary of issue</label>
+    <textarea id="issue" name="issue" class="{{ $.Scratch.Get "inputClasses" }} h4" aria-labelledby="issue"></textarea>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="rcvdLegalSupport">Have you received legal support for this issue?</label>
+    <input type="text" id="rcvdLegalSupport" name="rcvdLegalSupport" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="rcvdLegalSupport"/>
 
     <input class="db w-100 mv2 white pa3 bn hover-shadow hover-bg-black bg-animate bg-black" type="submit" value="{{ i18n "send" }}" />
 

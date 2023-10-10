@@ -10,7 +10,7 @@ SectionPagesMenu = "news"
 
 [params]
 favicon = ""
-site_logo = ""
+site_logo = "images/ilah-site-logo.png"
 description = "Free confidential legal advice if you feel that you have been discriminated, harassed, or faced violence because you are Muslim or were perceived to be Muslim."
 background_color_class = "bg-apb-blue"
 text_color = "near-black f3"
