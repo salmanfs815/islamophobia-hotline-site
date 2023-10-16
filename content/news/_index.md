@@ -5,4 +5,4 @@ menu:
     weight: 30
 ---
 
-# News
+<h1 id="news" class="tc">News</h1>

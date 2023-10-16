@@ -4,7 +4,7 @@ omit_header_text: true
 menu:
   main:
     parent: "Contact Us"
-    weight: 20
+    weight: 10
 ---
 
 In addition to our staff, the Hotline relies on the support of dedicated volunteers to operate the Hotline! Keep an eye out for upcoming opportunities that may interest you.
