@@ -14,7 +14,7 @@ If you feel that you have been discriminated, harassed, or faced violence becaus
 In order to be eligible for the program, you must meet the following criteria to receive assistance:
 
 1. Must live in British Columbia or have a legal issue for which BC is the jurisdiction
-2. While there may be ancillary issues involved, the case is primarily or at its core about Islamophobia
+2. While there may be other issues involved, the case is primarily or at its core about Islamophobia
 3. Legal issue
 4. Reasonable chance of success
 5. Do not currently have a lawyer

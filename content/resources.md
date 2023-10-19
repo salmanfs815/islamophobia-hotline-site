@@ -6,20 +6,20 @@ menu:
     weight: 40
 ---
 
-## Advocacy and Community Groups
+## Advocacy and Community Organizations
 
 * [National Council for Canadian Muslims](https://www.nccm.ca)
 * [Canadian Council of Canadian Women](https://www.ccmw.com)
-* [RECLAIM](https://www.reclaimcan.org)
 * [Resilience BC](https://www.resiliencebc.ca)
+* [Elimin8Hate](https://www.elimin8hate.org/)
 
 
 ## Legal Resources
 
-* [Community Legal Assistance Society](https://clasbc.net)
 * [BC Human Rights Clinic](https://bchrc.net)
 * [South Asian Legal Clinic](https://www.salcbc.org)
 * [Canadian Muslim Lawyers Association](https://www.cmla-acam.ca)
+* [University of Victoria Law Centre](https://www.uvic.ca/law/about/centre/services/humanrightsclinic.php)
 
 
 ## Academic Resources
@@ -35,3 +35,4 @@ menu:
 * [Victim Link BC](https://www2.gov.bc.ca/gov/content/justice/criminal-justice/victims-of-crime/victimlinkbc)
 * [Diversecity](https://www.dcrs.ca)
 * [Nisa Helpline](https://nisahelpline.com)
+* [Sila Wellness](https://www.silawellness.ca/)

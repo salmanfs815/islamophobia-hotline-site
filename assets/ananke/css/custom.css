@@ -15,6 +15,9 @@ h4 { color: var(--apb-blue); }
 h5 { color: var(--apb-blue); }
 h6 { color: var(--apb-blue); }
 
+#site-logo {
+  max-width: 25rem;
+}
 
 .site-menu span.fa {
   color: #FFF;
