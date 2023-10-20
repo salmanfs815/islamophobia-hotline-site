@@ -1,0 +1,27 @@
+<div class="measure-wide center ph5">
+    <h2 class="tc">Latest from us:</h2>
+    <div class="posts-carousel">
+        {{ range where site.RegularPages.Reverse "Type" "posts"  }}
+            <div>
+                <figure>
+                    <a href="{{.Permalink}}" target="_blank">
+                        <img src="{{.Permalink}}/{{.Resources.GetMatch "*.png"}}">
+                    </a>
+                    <figcaption class="f5">{{ .Content | truncate 150 }}</figcaption>
+                </figure>
+            </div>
+        {{ end }}
+    </div>
+    {{/*  <a class="ig-link f5 link dim dark-gray w-100 center di-ns" href="https://www.instagram.com/islamophobia_hotline/" target="_blank">
+        <img class="w1 v-mid" src="/images/instagram.png"><p class="v-mid ph2 di-ns v-mid">instagram.com/islamophobia_hotline</p>
+    </a>  */}}
+</div>
+
+<script>
+    $('.posts-carousel').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    });
+</script>

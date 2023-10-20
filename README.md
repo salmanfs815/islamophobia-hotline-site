@@ -14,4 +14,4 @@ This site uses:
 - [Tachyons CSS library](https://tachyons.io/)
 - [Netlify for hosting](https://www.netlify.com/)
 - [Formspree for contact form](https://formspree.io/)
-- [SnapWidget for Instagram feed](https://snapwidget.com/)
+- [Slick Carousel for Posts carousel](https://kenwheeler.github.io/slick/)
