@@ -1,5 +1,6 @@
 ---
 title: "Media Inquiries"
+name: "Media Inquiries"
 omit_header_text: true
 menu:
   main:

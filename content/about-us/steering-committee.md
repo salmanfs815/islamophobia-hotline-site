@@ -1,8 +1,10 @@
 ---
 title: "Steering Committee"
+name: "Steering Committee"
 omit_header_text: true
 menu:
-  about:
+  main:
+    parent: "About Us"
     weight: 20
 ---
 

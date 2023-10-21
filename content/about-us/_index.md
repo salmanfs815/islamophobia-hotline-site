@@ -1,5 +1,6 @@
 ---
 title: "About Us"
+name: "About Us"
 menu:
   main:
     weight: 20

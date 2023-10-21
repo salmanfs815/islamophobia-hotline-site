@@ -1,5 +1,6 @@
 ---
 title: "News"
+name: "News"
 menu:
   main:
     weight: 30
