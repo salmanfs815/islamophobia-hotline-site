@@ -11,7 +11,7 @@
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
         {{ $currentPage := . }}
-        <ul class="{{ cond (eq $.Site.Language.LanguageDirection " rtl") "pr0 ml3" "pl0 mr3" }}">
+        <ul class="{{ cond (eq $.Site.Language.LanguageDirection " rtl") "pr0 ml3" "pl0 mr3" }} navbar">
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
               <li class="list f5 f4-ns fw4 dib pr3 {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
@@ -19,11 +19,12 @@
                   {{ .Pre }}
                   <span>{{ .Name }}</span>
                 </a>
-                <button id="about_chevron" aria-haspopup="true" aria-controls="about-menu" aria-expanded="false"
-                  title="About us submenu"><span class="fa fa-chevron-down"></span></button>
-                <ul class="sub-menu dn pa0 w-33 center mt0" id="about-menu">
+                <button class="dropbtn">
+                  <span class="caret-down">^</span>
+                </button>
+                <ul class="sub-menu dn pa0 w-33 center mt">
                   {{ range .Children }}
-                  <li class="db {{ if $currentPage.IsMenuCurrent " main" . }}active{{ end }}">
+                  <li class="db {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
                     <a href="{{ .URL }}">{{ .Name }}</a>
                   </li>
                   {{ end }}
@@ -36,6 +37,10 @@
                 </a>
               </li>
             {{ end }}
+            {{/*  {{ $currentPage.IsMenuCurrent "main" . }}
+            {{ range .Children }}
+            <p>{{ . }}</p>
+            {{ end }}  */}}
           {{ end }}
         </ul>
       {{ end }}

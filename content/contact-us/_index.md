@@ -1,5 +1,6 @@
 ---
 title: "Contact Us"
+name: "Contact Us"
 menu:
   main:
     weight: 60

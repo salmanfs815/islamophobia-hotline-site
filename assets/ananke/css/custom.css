@@ -19,21 +19,25 @@ h6 { color: var(--apb-blue); }
   max-width: 25rem;
 }
 
-.site-menu span.fa {
+/* .site-menu span.fa {
   color: #FFF;
   font-size: 14px;
-}
+} */
 
-#about_chevron {
+.dropbtn, .caret-down {
   background-color: transparent;
   border: 0;
   padding: 0;
   margin: 0;
-  display: inline;
   color: #FFF;
 }
 
-.site-menu ul.sub-menu:not(.dn){
+.caret-down {
+  padding: 3px;
+  transform: rotate(180deg);
+}
+
+/* .site-menu ul.sub-menu:not(.dn){
   position: absolute;
   top: auto;
   width: 100%;
@@ -42,7 +46,7 @@ h6 { color: var(--apb-blue); }
   margin-left: -20px;
   margin-top: 10px;
   background: rgba(0,0,0,0.333);
-}
+} */
 
 .site-menu ul.sub-menu li a {
   color: #FFF;
@@ -50,6 +54,7 @@ h6 { color: var(--apb-blue); }
   text-decoration: none;
   padding: 8px;
 }
+
 .site-menu ul.sub-menu li a:hover,
 .site-menu ul.sub-menu li a:focus {
   background: rgba(0,0,0,0.7);

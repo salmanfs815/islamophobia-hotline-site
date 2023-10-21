@@ -1,5 +1,6 @@
 ---
 title: "Resources"
+name: "Resources"
 omit_header_text: true
 menu:
   main:
