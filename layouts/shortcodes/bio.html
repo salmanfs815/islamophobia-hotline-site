@@ -1,8 +1,14 @@
 <div class="line-break">
     {{ if .Get "pic" }}
         <h2>{{ .Get "name" }}</h2>
-        <img src="{{ .Get "pic" }}" alt="{{ .Get "name" }}" class="fl mw5 mr3">
-        <p class="mt0">{{ .Inner | markdownify }}</p>
+        <div>
+            <div class="dib v-top w5 mr3">
+                <img src="{{ .Get "pic" }}" alt="{{ .Get "name" }}">
+            </div>
+            <div class="dib v-top w-two-thirds">
+                <p class="mt0">{{ .Inner | markdownify }}</p>
+            </div>
+        </div>
     {{ else }}
         <h2>{{ .Get "name" }}</h2>
         <p>{{ .Inner | markdownify }}</p>
