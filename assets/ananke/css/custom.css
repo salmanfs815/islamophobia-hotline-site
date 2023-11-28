@@ -24,6 +24,8 @@ h6 { color: var(--apb-blue); }
   max-width: 100%;
 }
 
+/* Drop-down nav menu reference: https://www.w3docs.com/snippets/css/how-to-create-a-drop-down-navigation-menu-with-css.html */
+
 #navbar-container {
   height: 50px;
   margin: 0;
