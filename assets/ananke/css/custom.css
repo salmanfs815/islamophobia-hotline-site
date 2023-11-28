@@ -56,6 +56,15 @@ h6 { color: var(--apb-blue); }
   display: block;
 }
 
+@media screen and (max-width: 1300px) {
+  .navbar li {
+    width: 120px;
+  }
+  .navbar a {
+    font-size: 1rem;
+  }
+}
+
 .navbar li:hover,
 a:hover {
   background-color: #444444;
