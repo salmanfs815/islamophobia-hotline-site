@@ -1,6 +1,6 @@
 {{ $orgs := index .Site.Data "participating-orgs" }}
-<div>
+<div class="tc mt2">
     {{ range  $orgs }}
-        <a href="{{ .link }}"><img src="{{ .logo }}" alt="{{ .name }}" class="w5"></a><br>
+        <a href="{{ .link }}" target="_blank" class="dib mv3"><img src="{{ .logo }}" alt="{{ .name }}" class="w5"></a><br>
     {{ end }}
 </div>

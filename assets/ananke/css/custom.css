@@ -66,7 +66,7 @@ h6 { color: var(--apb-blue); }
 }
 
 .navbar li:hover,
-a:hover {
+.navbar a:hover {
   background-color: #444444;
 }
 
@@ -93,6 +93,8 @@ a:hover {
 .navbar li ul li a:hover {
   background-color: #a3a1a1;
 }
+
+/* /end navbar */
 
 .line-break:before {
   content: '\a';

@@ -47,17 +47,9 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 tj nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 tj nested-links {{ $.Param "text_color" | default "mid-gray" }} w-100">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
-      <div class="mt6 instapaper_ignoref">
-      {{ if .Site.DisqusShortname }}
-        {{ template "_internal/disqus.html" . }}
-      {{ end }}
-      {{ if .Site.Params.commentoEnable }}
-        {{- partial "commento.html" . -}}
-      {{ end }}
-      </div>
     </div>
 
   </article>

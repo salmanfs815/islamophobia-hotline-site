@@ -6,7 +6,7 @@ menu:
     weight: 60
 ---
 
-# Reporting Islamophobia
+<h1 id="contact-us" class="tc">Reporting Islamophobia</h1>
 
 If you feel that you have been discriminated, harassed, or faced violence because you are Muslim or were perceived to be Muslim and require legal support, please call:
 
