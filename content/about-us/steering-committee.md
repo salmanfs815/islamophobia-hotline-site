@@ -20,6 +20,10 @@ Hasan Alam is a Staff Lawyer at the B.C. General Employees’ Union where he pra
 Zool Suleman is a lawyer, writer, editor, advocate and cultural collaborator. You can find out more about him at [www.sulemanco.com](http://www.sulemanco.com/) and [www.rungh.org](https://rungh.org/).
 {{< /bio >}}
 
+{{< bio name="Sania Chaudhry" pic="/images/steering-committee/Sania Chaudhry.jpg" >}}
+Sania Chaudhry is a lawyer with Forte Workplace Law offering services to employers and employees in employment, labour and human rights matters, as well as conducting workplace investigations and respectful workplace training for clients in both Alberta and BC. She is also a current part-time student at the University of Calgary Faculty of Law in their Masters of Law program, with her research focusing on critical race theory and administrative law in the context of reasonable apprehension of bias. She is also a sessional instructor at the University of Calgary Faculty of Law teaching critical race theory and law. She was recently named one of 2023’s Top 25 Influential Lawyers by Canadian Lawyer Magazine in the Changemaker category.
+{{< /bio >}}
+
 {{< bio name="Michael Seaborn" >}}
 Michael Seaborn spent ten years practicing law on Vancouver Island, before moving to Vancouver where he has worked for a number of legal organizations such as the Law Foundation and the BC Public Interest Advocacy Centre. He currently works in the area of professional regulation. He is the author of the memoir, _Crossing Chiromo Road_, about volunteering with the UN High Commissioner for Refugees.
 {{< /bio >}}
