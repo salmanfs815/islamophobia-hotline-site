@@ -6,7 +6,28 @@ title = 'Islamophobia Legal Assistance Hotline'
 theme = 'ananke'
 
 DefaultContentLanguage = "en"
-SectionPagesMenu = "news"
+
+[menu]
+[[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menu.main]]
+    name = 'About Us'
+    pageRef = '#'
+    weight = 20
+[[menu.main]]
+    name = 'News'
+    pageRef = '/news'
+    weight = 30
+[[menu.main]]
+    name = 'Resources'
+    pageRef = '/resources'
+    weight = 40
+[[menu.main]]
+    name = 'Contact Us'
+    pageRef = '#'
+    weight = 50
 
 [params]
 favicon = ""

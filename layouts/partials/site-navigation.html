@@ -16,7 +16,13 @@
             {{ range .Site.Menus.main }}
               {{ if .HasChildren }}
                 <li class="list f5 f4-ns fw4 pr3 {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                  <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ .Name }} page">
+                  <a class="hover-white no-underline white-90"
+                    {{ if .URL }}
+                      href="{{ .URL }}"
+                    {{ else }}
+                      href="#"
+                    {{ end }}
+                    title="{{ .Name }} page">
                     {{ .Pre }}
                     <span>{{ .Name }}</span>
                   </a>

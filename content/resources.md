@@ -2,9 +2,6 @@
 title: "Resources"
 name: "Resources"
 omit_header_text: true
-menu:
-  main:
-    weight: 40
 ---
 
 ## Advocacy and Community Organizations
@@ -21,6 +18,7 @@ menu:
 * [South Asian Legal Clinic](https://www.salcbc.org)
 * [Canadian Muslim Lawyers Association](https://www.cmla-acam.ca)
 * [University of Victoria Law Centre](https://www.uvic.ca/law/about/centre/services/humanrightsclinic.php)
+* [Palestine Legal Referral Services](https://www.palestinelegalreferral.ca)
 
 
 ## Academic Resources
