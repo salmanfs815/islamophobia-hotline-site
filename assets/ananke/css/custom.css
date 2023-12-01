@@ -16,11 +16,17 @@ h5 { color: var(--apb-blue); }
 h6 { color: var(--apb-blue); }
 
 #header {
-  background: url('/images/banner-image-homepage.jpeg') right top;
+  background: url('/images/banner-image-homepage.jpeg') right;
+  background-size: cover;
 }
 @media screen and (max-width: 480px) {
   #header {
-    background: #CAB99B;
+    background: #cab99b;
+    /* background-attachment: fixed;
+    background-color: rgb(202, 185, 155);
+    background: linear-gradient(to bottom, rgba(202, 185, 155,1) 0%,rgba(202, 185, 155,0) 25%,rgba(202, 185, 155,0) 75%,rgba(202, 185, 155,1) 100%), url('/images/banner-image-homepage-mobile.jpeg');
+    background-position: right;
+    background-size: contain; */
   }
 }
 
