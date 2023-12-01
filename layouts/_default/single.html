@@ -7,13 +7,6 @@
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked">
-          {{/*
-          CurrentSection allows us to use the section title instead of inferring from the folder.
-          https://gohugo.io/variables/page/#section-variables-and-methods
-          */}}
-        {{with .CurrentSection.Title }}{{. | upper }}{{end}}
-      </aside>
       {{ partial "social-share.html" . }}
       <h1 class="f1 athelas mt3 mb1 tc">
         {{- .Title -}}
@@ -47,17 +40,9 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 tj nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 tj nested-links {{ $.Param "text_color" | default "mid-gray" }} w-100">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
-      <div class="mt6 instapaper_ignoref">
-      {{ if .Site.DisqusShortname }}
-        {{ template "_internal/disqus.html" . }}
-      {{ end }}
-      {{ if .Site.Params.commentoEnable }}
-        {{- partial "commento.html" . -}}
-      {{ end }}
-      </div>
     </div>
 
   </article>
