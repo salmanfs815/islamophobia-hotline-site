@@ -1,7 +1,7 @@
 <div class="carousel-container measure-wide center ph5">
     <h2 class="tc">Latest from us:</h2>
     <div class="posts-carousel">
-        {{ range where site.RegularPages.Reverse "Type" "posts"  }}
+        {{ range where site.RegularPages "Type" "posts"  }}
             <div>
                 <figure>
                     <a href="{{.Permalink}}" target="_blank">
