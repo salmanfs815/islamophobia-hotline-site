@@ -15,8 +15,13 @@ h4 { color: var(--apb-blue); }
 h5 { color: var(--apb-blue); }
 h6 { color: var(--apb-blue); }
 
-.bg-right {
-  background-position-x: right;
+#header {
+  background: url('http://localhost:1313/images/banner-image-homepage.jpeg') right top;
+}
+@media screen and (max-width: 480px) {
+  #header {
+    background: #CAB99B;
+  }
 }
 
 #site-logo {
