@@ -34,4 +34,3 @@ omit_header_text: true
 * [Victim Link BC](https://www2.gov.bc.ca/gov/content/justice/criminal-justice/victims-of-crime/victimlinkbc)
 * [Diversecity](https://www.dcrs.ca)
 * [Nisa Helpline](https://nisahelpline.com)
-* [Sila Wellness](https://www.silawellness.ca/)

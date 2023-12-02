@@ -17,7 +17,7 @@ Hasan Alam is a Staff Lawyer at the B.C. General Employees’ Union where he pra
 {{< /bio >}}
 
 {{< bio name="Zool Suleman" pic="/images/steering-committee/Zool Suleman.jpg" >}}
-Zool Suleman is a lawyer, writer, editor, advocate and cultural collaborator. You can find out more about him at [www.sulemanco.com](http://www.sulemanco.com/) and [www.rungh.org](https://rungh.org/).
+Zool Suleman is a lawyer, writer, editor, advocate and cultural collaborator. You can find out more about him at [sulemanco.com](https://sulemanco.com/) and [www.rungh.org](https://rungh.org/).
 {{< /bio >}}
 
 {{< bio name="Sania Chaudhry" pic="/images/steering-committee/Sania Chaudhry.jpg" >}}
