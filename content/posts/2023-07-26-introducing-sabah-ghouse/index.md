@@ -1,6 +1,8 @@
 ---
 title: "Introducing Sabah Ghouse"
+date: "2023-07-26"
 instagram_link: "https://www.instagram.com/p/CvLUdk5vhpK/"
+images: ["1.png"]
 ---
 We are thrilled to announce that Sabah Ghouse has joined our team as the Program Coordinator of the Islamophobia Legal Assistance Hotline!
 

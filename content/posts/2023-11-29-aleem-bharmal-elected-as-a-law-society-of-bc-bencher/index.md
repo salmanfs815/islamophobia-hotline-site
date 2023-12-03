@@ -1,6 +1,8 @@
 ---
 title: Aleem Bharmal elected as a Law Society of BC bencher
+date: "2023-11-29"
 instagram_link: https://www.instagram.com/p/C0NUOqNvGM3/
+images: ["1.jpg"]
 ---
 Congratulations to Mr. Aleem Bharmal on being elected as a Law Society of BC bencher!
 

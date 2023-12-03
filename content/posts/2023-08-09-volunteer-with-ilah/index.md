@@ -1,6 +1,8 @@
 ---
 title: "Volunteer with ILAH"
+date: "2023-08-09"
 instagram_link: "https://www.instagram.com/p/CvvefGIvUdJ/"
+images: ["1.png", "2.png"]
 ---
 Access Pro Bono Seeks Volunteer Lawyers for Islamophobia Legal Assistance Hotline. Link to the form is in the bio!
 
