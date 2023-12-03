@@ -3,9 +3,6 @@
     <div class="posts-carousel">
         {{ range where site.RegularPages "Type" "posts" }}
             <div>
-                <h3>{{ .Title }}</h3>
-                <h4>slug: {{.Date}}</h4>
-                <p>{{.Permalink}}/{{.Resources.GetMatch "*"}}</p>
                 <figure>
                     <a href="{{.Permalink}}" target="_blank">
                         <img src="{{.Permalink}}/{{.Resources.GetMatch "*"}}">
