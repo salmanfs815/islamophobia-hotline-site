@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <h1 class="tc">Featured News</h1>
+    <section class="flex-ns flex-wrap justify-around mt5">
+      {{ range .Paginator.Pages.ByDate.Reverse }}
+        {{ if le (time.Now.Sub .Date) (time.ParseDuration "8760h")}}
+          <div class="relative w-100 w-30-l mb4 bg-white">
+            {{ .Render "summary" }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </section>
+    <hr>
+    <h1 class="tc">News</h1>
+    <section class="flex-ns flex-wrap justify-around mt5">
+      {{ range .Paginator.Pages.ByDate.Reverse }}
+        {{ if gt (time.Now.Sub .Date) (time.ParseDuration "8760h")}}
+          <div class="relative w-100 w-30-l mb4 bg-white">
+            {{ .Render "summary" }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </section>
+    {{- template "_internal/pagination.html" . -}}
+  </article>
+{{ end }}
