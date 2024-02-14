@@ -2,7 +2,6 @@ baseURL = 'https://islamophobiahotline.org/'
 languageCode = 'en-ca'
 title = 'Islamophobia Legal Assistance Hotline'
 
-enableRobotsTXT = true
 
 theme = 'ananke'
 
