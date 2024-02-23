@@ -116,6 +116,10 @@ h6 { color: var(--apb-blue); }
   overflow: hidden;
 }
 
+#index-h1 {
+  font-size: 2rem;
+}
+
 #cta-call {
   width: 100%;
   display: flex;

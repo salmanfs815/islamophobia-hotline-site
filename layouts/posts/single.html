@@ -7,14 +7,14 @@
     <div class="measure-wide center ph5">
       <div class="page-carousel">
         {{ range .Resources }}
-          <div><img src="{{.Permalink}}"></div>
+          <div><img src="{{.Permalink}}" alt="{{.Title}}"></div>
         {{ end }}
       </div>
     </div>
 
-    <h2 class="f3 tc">
+    <h1 class="f3 tc">
       {{ .Title }}
-    </h2>
+    </h1>
 
     <div class="nested-copy-line-height lh-copy f4 nested-links tj {{ $.Param " text_color" | default "mid-gray" }}">
       {{ .Content }}

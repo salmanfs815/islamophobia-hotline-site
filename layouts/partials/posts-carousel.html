@@ -5,7 +5,7 @@
             <div>
                 <figure>
                     <a href="{{.Permalink}}" target="_blank">
-                        <img src="{{.Permalink}}/{{.Resources.GetMatch "*"}}">
+                        <img src="{{.Permalink}}/{{.Resources.GetMatch "*"}}" alt="{{.Title}}">
                     </a>
                     <figcaption class="f5">{{ .Content | truncate 150 }}</figcaption>
                 </figure>
