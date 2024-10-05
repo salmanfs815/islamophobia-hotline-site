@@ -3,7 +3,7 @@ title: Community Iftar
 date: 2024-03-22T03:02:38.714Z
 instagram_link: https://www.instagram.com/p/C4yXyf5LvuV/
 images:
-  - ilah-post-community-iftar.png
+  - 1.png
 ---
 During Ramadan, Muslim communities around the world gather every evening at sunset to break their fast with family and friends.\
 \
