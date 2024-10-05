@@ -21,7 +21,7 @@ Zool Suleman is a lawyer, writer, editor, advocate and cultural collaborator. Yo
 {{< /bio >}}
 
 {{< bio name="Sania Chaudhry" pic="/images/steering-committee/Sania Chaudhry.jpg" >}}
-Sania Chaudhry is a lawyer with Forte Workplace Law offering services to employers and employees in employment, labour and human rights matters, as well as conducting workplace investigations and respectful workplace training for clients in both Alberta and BC. She is also a current part-time student at the University of Calgary Faculty of Law in their Masters of Law program, with her research focusing on critical race theory and administrative law in the context of reasonable apprehension of bias. She is also a sessional instructor at the University of Calgary Faculty of Law teaching critical race theory and law. She was recently named one of 2023’s Top 25 Influential Lawyers by Canadian Lawyer Magazine in the Changemaker category.
+o	Sania Chaudhry is a lawyer with Forte Workplace Law offering services to employers and employees in employment, labour and human rights matters, as well as conducting workplace investigations and respectful workplace training for clients in both Alberta and BC. She completed her Masters of Law at the University of Calgary Faculty of Law, with her research focusing on critical race theory and administrative law in the context of reasonable apprehension of bias. She is also a sessional instructor at the University of Calgary Faculty of Law teaching critical race theory and law. She was named one of 2023’s Top 25 Influential Lawyers by Canadian Lawyer Magazine in the Changemaker category.
 {{< /bio >}}
 
 {{< bio name="Michael Seaborn" >}}
