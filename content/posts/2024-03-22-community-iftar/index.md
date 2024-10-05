@@ -9,4 +9,4 @@ During Ramadan, Muslim communities around the world gather every evening at suns
 \
 This year, mark your calendars for a special community iftar event, jointly hosted by the Islamophobia Legal Assistance Hotline and Centre for Comparative Muslim Studies ([@ccms_sfu](https://www.instagram.com/ccms_sfu/)). Join us at SFU's downtown campus on March 28th for an evening filled with community and delicious food.\
 \
-This event will be free to all attendees, however, registration is required as space is limited. Register in the LinkTree in our bio.
+This event will be free to all attendees, however, registration is required as space is limited. Register [here](https://www.eventbrite.ca/e/save-the-date-upcoming-community-iftar-tickets-863149361977).
