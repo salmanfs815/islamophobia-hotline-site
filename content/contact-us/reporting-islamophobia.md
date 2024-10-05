@@ -28,4 +28,4 @@ If you are unable to call us, but still require assistance, please fill out the 
 
 {{< form-contact action="https://formspree.io/f/xjvqgppk" >}}
 
-If you have any questions, please email [info@accessprobono.ca](mailto:info@accessprobono.ca).
+If you have any questions, please email [ilah@accessprobono.ca](mailto:ilah@accessprobono.ca).
