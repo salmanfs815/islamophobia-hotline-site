@@ -5,7 +5,7 @@ omit_header_text: true
 menu:
   main:
     parent: "Contact Us"
-    weight: 20
+    weight: 30
 ---
 
 For media inquiries, please contact:
