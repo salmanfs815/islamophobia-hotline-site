@@ -11,5 +11,4 @@ menu:
 For media inquiries, please contact:
 
 * Hasan Alam: [hmalam7@gmail.com](mailto:hmalam7@gmail.com)
-* Zool Suleman: [zool@sulemanco.com](mailto:zool@sulemanco.com)
 * Sania Chaudhry: [sania@fortelaw.ca](mailto:sania@fortelaw.ca)

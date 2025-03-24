@@ -13,17 +13,13 @@ Mr. Aleem Bharmal, KC is a human rights lawyer with the Community Legal Assistan
 {{< /bio >}}
 
 {{< bio name="Hasan Alam" pic="/images/steering-committee/Hasan Alam.jpg" >}}
-Hasan Alam is a Staff Lawyer at the B.C. General Employees’ Union where he practices Labour and Human Rights Law. He is also the supervising lawyer for the Archway Migrant Workers and Poverty Law Clinics. Hasan helped to co-found the ILAH in 2016 and serves in the role of the Community Liaison. He is also the Vice President of the BC Civil Liberties Associations, the oldest and most active civil liberties group in Canada.
-{{< /bio >}}
-
-{{< bio name="Zool Suleman" pic="/images/steering-committee/Zool Suleman.jpg" >}}
-Zool Suleman is a lawyer, writer, editor, advocate and cultural collaborator. You can find out more about him at [sulemanco.com](https://sulemanco.com/) and [www.rungh.org](https://rungh.org/).
+Hasan Alam is a Staff Lawyer at the B.C. General Employees’ Union where he practices Labour and Human Rights Law. He is also the supervising lawyer for the Archway Migrant Workers and Poverty Law Clinics. Hasan helped to co-found the ILAH in 2016 and serves in the role of the Community Liaison. He is also the Vice President of the BC Civil Liberties Associations, the oldest and most active civil liberties group in Canada. Hasan is currently on leave.
 {{< /bio >}}
 
 {{< bio name="Sania Chaudhry" pic="/images/steering-committee/Sania Chaudhry.jpg" >}}
-o	Sania Chaudhry is a lawyer with Forte Workplace Law offering services to employers and employees in employment, labour and human rights matters, as well as conducting workplace investigations and respectful workplace training for clients in both Alberta and BC. She completed her Masters of Law at the University of Calgary Faculty of Law, with her research focusing on critical race theory and administrative law in the context of reasonable apprehension of bias. She is also a sessional instructor at the University of Calgary Faculty of Law teaching critical race theory and law. She was named one of 2023’s Top 25 Influential Lawyers by Canadian Lawyer Magazine in the Changemaker category.
+Sania Chaudhry is a lawyer with Forte Workplace Law offering services to employers and employees in employment, labour and human rights matters, as well as conducting workplace investigations and respectful workplace training for clients in both Alberta and BC. She completed her Masters of Law at the University of Calgary Faculty of Law, with her research focusing on critical race theory and administrative law in the context of reasonable apprehension of bias. She is also a sessional instructor at the University of Calgary Faculty of Law teaching critical race theory and law. She was named one of 2023’s Top 25 Influential Lawyers by Canadian Lawyer Magazine in the Changemaker category.
 {{< /bio >}}
 
-{{< bio name="Michael Seaborn" >}}
-Michael Seaborn spent ten years practicing law on Vancouver Island, before moving to Vancouver where he has worked for a number of legal organizations such as the Law Foundation and the BC Public Interest Advocacy Centre. He currently works in the area of professional regulation. He is the author of the memoir, _Crossing Chiromo Road_, about volunteering with the UN High Commissioner for Refugees.
+{{< bio name="Aisha Afzal" pic="/images/steering-committee/Aisha Afzal.jpeg" >}}
+Aisha Afzal is a registered social worker and psychotherapist committed to providing compassionate, culturally responsive mental health care. She supports clients in both the public health system and a community-based practice, grounding her work in trauma-informed, anti-oppressive principles. Aisha holds a Master of Social Work with a clinical mental health focus from the University of Toronto and post-graduate training in various therapeutic modalities. Guided by a deep commitment to collective care and justice, she serves on the steering committee of the Islamophobia Legal Assistance Hotline to help build accessible, affirming support for those affected by Islamophobia.
 {{< /bio >}}
