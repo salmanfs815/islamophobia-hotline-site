@@ -1,7 +1,7 @@
 ---
 title: "Islamophobia Legal Assistance Hotline is Hiring!"
 date: 2024-12-09T22:27:32.071Z
-instagram_link: https://www.instagram.com/islamophobia_hotline/
+instagram_link: https://www.instagram.com/islamophobia_hotline/p/DDdIQSvvJvN/
 images:
   - 1.png
 ---
