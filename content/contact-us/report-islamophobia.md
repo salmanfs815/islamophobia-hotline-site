@@ -1,6 +1,6 @@
 ---
-title: "Reporting Islamophobia"
-name: "Reporting Islamophobia"
+title: "Report Islamophobia"
+name: "Report Islamophobia"
 omit_header_text: true
 menu:
   main:

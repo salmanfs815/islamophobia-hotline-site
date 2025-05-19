@@ -1,7 +1,11 @@
 ---
-title: "Resources"
-name: "Resources"
+title: "Community Resources"
+name: "Community Resources"
 omit_header_text: true
+menu:
+  main:
+    parent: "Resources"
+    weight: 20
 ---
 
 ## Advocacy and Community Organizations

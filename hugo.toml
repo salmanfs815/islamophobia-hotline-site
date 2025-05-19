@@ -22,7 +22,7 @@ DefaultContentLanguage = "en"
     weight = 30
 [[menu.main]]
     name = 'Resources'
-    pageRef = '/resources'
+    pageRef = '#'
     weight = 40
 [[menu.main]]
     name = 'Contact Us'
