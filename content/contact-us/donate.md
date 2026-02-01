@@ -15,4 +15,4 @@ Your contribution helps:
 * Distribute educational materials 
 * Support community events and workshops with faith centres, Muslim organizations, and other organizations interested in dismantling Islamophobia and related discrimination 
 
-<h3 class="tc"><a href="https://www.canadahelps.org/en/dn/487" style="text-decoration:none;" target="_blank">DONATE HERE</a></h3>
+<h3 class="tc"><a href="https://www.canadahelps.org/en/dn/143516" style="text-decoration:none;" target="_blank">DONATE HERE</a></h3>
