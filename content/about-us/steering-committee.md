@@ -13,9 +13,14 @@ Mr. Aleem Bharmal, KC is a human rights lawyer with the Community Legal Assistan
 {{< /bio >}}
 
 {{< bio name="Hasan Alam" pic="/images/steering-committee/Hasan Alam.jpg" >}}
-Hasan Alam is a Staff Lawyer at the B.C. General Employees’ Union where he practices Labour and Human Rights Law. He is also the supervising lawyer for the Archway Migrant Workers and Poverty Law Clinics. Hasan helped to co-found the ILAH in 2016 and serves in the role of the Community Liaison. He is also the Vice President of the BC Civil Liberties Associations, the oldest and most active civil liberties group in Canada.
+Hasan Alam is a Vancouver-based labour and human rights lawyer at the BC General Employees' Union, President of the BC Civil Liberties Association (BCCLA), and Co-Founder of the Islamophobia Legal Assistance Hotline (ILAH). His practice spans workplace rights, civil liberties advocacy, and community legal education, with a particular focus on protecting the rights of marginalized communities.
 {{< /bio >}}
 
 {{< bio name="Aisha Afzal" pic="/images/steering-committee/Aisha Afzal.jpeg" >}}
 Aisha Afzal is a registered social worker and psychotherapist committed to providing compassionate, culturally responsive mental health care. She supports clients in both the public health system and a community-based practice, grounding her work in trauma-informed, anti-oppressive principles. Aisha holds a Master of Social Work with a clinical mental health focus from the University of Toronto and post-graduate training in various therapeutic modalities. Guided by a deep commitment to collective care and justice, she serves on the steering committee of the Islamophobia Legal Assistance Hotline to help build accessible, affirming support for those affected by Islamophobia. Aisha is currently on leave.
+{{< /bio >}}
+
+{{< bio name="Natalie Chan" pic="/images/steering-committee/Natalie Chan.jpeg" >}}
+Natalie Chan is a Legal Counsel at the BC College of Nurses and Midwives, where she practices administrative law, health law and policy, and professional regulation. She previously served on the ILAH and other programs of Access Pro Bono, as a lawyer on their volunteer rosters. 
+Natalie was recently the Vice Chair for the Advocacy Committee, and an executive for other committees, of the Federation of Asian Canadian Lawyers (BC Branch). She also served as an executive on a few sections of the Canadian Bar Association (BC Branch), including Labour and Employment.
 {{< /bio >}}
