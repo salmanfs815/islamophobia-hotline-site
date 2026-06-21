@@ -1,0 +1,69 @@
+{{ define "main" }}
+<div class="pa4 tc">
+
+  <h1 class="f1 fw9 black-90 mb4 ttu" style="font-family: inherit;">
+    Our Team
+  </h1>
+
+  <!-- Tabs -->
+  <div class="mb4">
+    <button class="tab-btn ph4 pv2 fw6 ttu br-pill bn mr2 pointer apb-blue white" data-team="steering">
+      Steering Committee
+    </button>
+    <button class="tab-btn ph4 pv2 fw6 ttu br-pill bn pointer bg-white black-80" data-team="founding">
+      Founding Members
+    </button>
+  </div>
+
+  <!-- Cards -->
+  <div class="flex flex-wrap justify-center">
+    {{ range $.Site.Data.team }}
+      <div class="card pa3 ma2 bg-white br3 shadow-3 tc pointer"
+           style="width: 220px;"
+           data-teams="{{ delimit .teams "," }}"
+           data-name="{{ .name }}"
+           data-photo="{{ .photo }}"
+           data-bio="{{ .bio }}">
+        <img src="{{ .photo }}" alt="{{ .name }}" 
+          class="br-100 dib mb3"
+          style="width: 140px; height: 140px; object-fit: cover; object-position: center;">
+        <div class="fw7 black-90">{{ .name }}</div>
+        <div class="f6 black-60 underline">Read Bio</div>
+      </div>
+    {{ end }}
+  </div>
+
+</div>
+
+<!-- Modal -->
+<div id="bio-modal" class="fixed top-0 left-0 w-100 h-100 flex items-center justify-center dn"
+     style="background: rgba(0,0,0,0.6); z-index: 999; display: none;">
+  <div class="bg-white br3 relative" style="max-width: 800px; width: 90%; max-height: 80vh;">
+
+    <!-- Close button row (its own space, not overlapping content) -->
+    <div class="flex justify-end pa3 pb0">
+      <div id="modal-close" class="flex items-center pointer f6 fw6 black-60">
+        CLOSE
+        <span class="f3 ml1" style="line-height: 1;">&times;</span>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="flex flex-column flex-row-ns ph4 pb4 pt2" style="max-height: calc(80vh - 50px); overflow-y: auto;">
+      <!-- Left: photo + name -->
+      <div class="tc flex-shrink-0 mr4-ns mb3 mb0-ns" style="width: 100%; max-width: 200px;">
+        <img id="modal-photo" src="" alt="" class="br-100 dib mb3"
+            style="width: 140px; height: 140px; object-fit: cover; object-position: center;">
+        <h2 id="modal-name" class="mb1 f4"></h2>
+      </div>
+      <!-- Right: bio -->
+      <div class="flex-auto">
+        <p id="modal-bio" class="lh-copy ma0"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/team.js"></script>
+
+{{ end }}
