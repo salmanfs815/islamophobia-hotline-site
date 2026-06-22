@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
       });
       tab.classList.remove('bg-white', 'black-80');
       tab.classList.add('apb-blue', 'white');
-
       showTeam(tab.dataset.team);
     });
   });
