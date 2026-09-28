@@ -1,5 +1,5 @@
 ---
-title: "The History of Oslamophobia in Canada - Talk by Hassam Munir"
+title: "The History of Islamophobia in Canada - Talk by Hassam Munir"
 date: 2025-10-27T00:00:00.000Z
 instagram_link: https://www.instagram.com/islamophobia_hotline/p/DQUxxb-ksX4/
 images:
